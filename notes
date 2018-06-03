@@ -35,3 +35,7 @@ git brach login
 
 TO SWITCH BRANCH
 git checkout login
+
+
+//TO MAKE UPDATE THE PROJECT FROM REPOSITORY
+git pull
