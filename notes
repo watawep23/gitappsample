@@ -1,0 +1,20 @@
+Notes:
+
+To access git bash on a project, simply right click the main folder of project then select git bash
+
+to create a file using git bash "touch index.html"
+
+to initialize the git on your project "git init" - this will create .git folder but by default, you can not see it because it is hidden.
+
+BEFORE START ADD NAME AND EMAIL TO GIT
+git config --global user.name 'Gab Adawag'
+git config --global user.email 'me@gadawag.com'
+
+TO ADD A FILE TO GIT REPOSITORY
+git add index.html //add specific file
+git add *.html //add all html file
+git add . //will add all files
+
+
+TO SEE WHAT IS IN THE STAGING AREA
+git status
