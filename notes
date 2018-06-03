@@ -18,3 +18,12 @@ git add . //will add all files
 
 TO SEE WHAT IS IN THE STAGING AREA
 git status
+
+
+TO COMMIT
+git commit -m 'Changed app.js' or index.html whatever file you want to COMMIT
+
+
+
+TO EXCLUDE FILES ON git add .
+create a file .gitignore then type inside that which file you want to ignore
