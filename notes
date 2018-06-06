@@ -41,5 +41,19 @@ git checkout login
 git push
 
 
-//TO MAKE UPDATE THE PROJECT FROM REPOSITORY
+//TO MAKE UPDATE THE PROJECT FROM REPOSITORY (don't forget to register first the target repository using "git remote add origin https://github.com/username/repositoryname.git")
 git pull
+
+
+
+
+GENERAL STEPS:
+
+1. Access the project using git bash (right-click the folder then choose gitbash)
+2. Initialize the project using "git init"
+3. If you made some changes on files use "git status" to check the affected and ready to staged files.
+4. Staged the files (add them to local repository) using "git add"
+5. Commit the staged file (save on local repository) using git commit -m 'put your comment here'
+6. If there are nothing else to do, upload the project on github repository
+  6.1 First, add the remote repository target using "git remote add origin https://github.com/username/repositoryname.git"
+  6.2 Then push the updated project using "git push -u origin master"
